@@ -11,6 +11,7 @@
 
 set $mod Mod4
 exec_always --no-startup-id killall polybar
+#exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
 exec_always --no-startup-id polybar
 exec_always feh --bg-scale ~/nice-blue-background.png
 
