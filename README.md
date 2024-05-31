@@ -1,10 +1,29 @@
 # dotfiles
 
+I am using GNU *Stow* to manage my dotfiles.
+
+
+#### Linux installation
+`$ sudo apt install stow`
+
+
+
+
 ### Neovim
 
 ### Bash
+```
+$ cd dotfiles
+$ stow bash
+```
 
-### OhMyZsh
+### OhMyZsh (zsh)
+```
+$ cd dotfiles
+$ stow ohmyzsh
+```
+
+
 
 ### Tmux
 
