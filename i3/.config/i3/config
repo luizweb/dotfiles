@@ -9,7 +9,16 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-for_window [class="^.*"] border pixel 1
+
+# Add a 10-pixel border around all windows
+# This creates space between panes
+for_window [class=".*"] border pixel 1
+
+# Set inner and outer gaps
+gaps inner 10
+gaps outer 10
+
+#for_window [class="^.*"] border pixel 1
 
 set $mod Mod4
 # set $mod Mod1
@@ -200,7 +209,7 @@ bindsym $mod+r mode "resize"
 set $rosewater #f5e0dc
 set $flamingo  #f2cdcd
 set $pink      #f5c2e7
-set $mauve     #cba6f7
+set $mauve     #02c39a
 set $red       #f38ba8
 set $maroon    #eba0ac
 set $peach     #fab387
